@@ -8,12 +8,12 @@ Created on Tue Oct 16 19:37:41 2018
 import numpy as np
 import pandas as pd
 import seaborn as sns
-sns.heatmap(union.corr())
+sns.heatmap(join.corr())
 train=pd.read_csv('D:\mohit gate\edvancer python\project 1\Consumer_Complaints_train.csv')
 #join.to_csv('D:\mohit gate\edvancer python\project 1\Complaints_words.csv')
 join=pd.read_csv('D:\mohit gate\edvancer python\project 1\Complaints_words.csv')
 
-train.head(5)
+join.head(5)
 
 tr=train[['Company','Consumer disputed?']]
 
